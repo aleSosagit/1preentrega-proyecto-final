@@ -3,13 +3,13 @@ let mateId;
 
 let carrito = [];
 
-const bienvenida = () => {
+/* const bienvenida = () => {
     let nombre = prompt("Bienvenido a Mercy! , ingresa tu nombre: ");
     while (nombre === "") {
         nombre = prompt("Bienvenido a Mercy! , ingresa tu nombre: ");
     }
     return nombre;
-};
+}; */
 
 
 class crearMate {

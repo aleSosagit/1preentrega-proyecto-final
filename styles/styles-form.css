@@ -1,0 +1,123 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  color: white;
+
+}
+
+.box-container {
+  padding: 40px;
+  border-radius: 20px;
+  background-color: #ca9c67;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 8px 9px 6px -4px rgba(73, 73, 73, 0.49);
+
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+#description {
+  color: white;
+  font-size: 1.2rem;
+  margin-top: -10 px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+p {
+  color: white;
+}
+
+.controls {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: none;
+  font-size: 1rem;
+  color: #ac855a;
+
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #7a5e41;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+#options {
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+#recomend {
+  margin-top: 5px;
+}
+
+
+#submit {
+  width: 100%;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: hwb(212 36% 0%);
+  color: white;
+  font-weight: bolder;
+}
+
+
+.form_content #options label,
+.form_content #check-info label {
+  color: white;
+  padding: 2px;
+  margin: 2px;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  cursor: pointer;
+  /* background-color: #ac855a; */
+  font-size: 1.1rem;
+
+}
+
+.form_content #options label:hover,
+.form_content #check-info label:hover {
+  background-color: #ac855a;
+}
+
+#submit:hover {
+  background-color: hwb(212 44% 1%);
+}
+
+#submit:active {
+  background-color: hwb(212 22% 20%);
+}

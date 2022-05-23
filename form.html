@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles-form.css">
+    <title>Formulario login</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;400;600;900&display=swap');
+    </style> 
+
+
+</head>
+
+
+<body>
+    <article class="box-container">
+        <h1 id="title"> Mercy! </h1>
+        <p id="description"> Gracias por contactarnos!⚡</p><br>
+
+        <form id="login-form">
+            <section class="form_content">
+
+
+                <label class="subtitulo" for="name" id="name-label">Nombre </label><br>
+                <input class="controls" type="text" placeholder="Ingresa tu nombre" id="name" minlength="3"
+                    maxlength="40" required />
+                <br>
+                <label class="subtitulo" for="email" id="email-label">Correo </label><br>
+                <input class="controls" type="email" placeholder="Ingresa tu email" id="email" required>
+                <br>
+                <div id="options">
+                    <h3 class="subtitulo"> Cómo conociste Mercy?</h3>
+
+                    <input type="radio" name="info-form" id="recomend" value="recomend" />
+                    <label class="option" for="recomend">Me lo recomendó un amigo/a</label><br>
+
+                    <input type="radio" name="info-form" id="instagram" value="instagram" />
+                    <label class="option" for="instagram">Anuncio en Instagram</label><br>
+
+                    <input type="radio" name="info-form" id="anuncio-web" value="anuncio-web" />
+                    <label class="option" for="anuncio-web">Anuncio en la web</label><br>
+                </div>
+                <input type="submit" value="Enviar" id="submit">
+
+            </section>
+        </form>
+    </article>
+    <script src="js/form.js"></script>
+
+</body>
+
+</html>
